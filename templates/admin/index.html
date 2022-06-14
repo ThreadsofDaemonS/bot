@@ -1,0 +1,19 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+      <div class="jumbotron">
+          <div class="container">
+            <h1>Ласкаво просимо!</h1>
+            <p>Привіт, вас вітає компанія "Організація"!</p>
+            <p>Яка займається, щоб ви подумали - правильно - організацією!</p>
+            <br>
+            <p>Ось наші контакти:</p>
+            <p>Call-center: 383-383-383 </p>
+            <p>Наш сайт: www.OOO_Organizaciya.com</p>
+            {% if not current_user.is_authenticated %}
+            <p><a class="btn btn-primary" href="{{ url_for('security.login') }}"><i class="glyphicon glyphicon-chevron-right"></i> Увійти</a></p>
+            <p><a class="btn btn-primary" href="/"><i class="glyphicon glyphicon-chevron-left"></i> Назад</a></p>
+            {% endif %}
+          </div>
+      </div>
+{% endblock %}

@@ -1,0 +1,797 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/logout/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:13] "GET /admin/login/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "POST /admin/login/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:57:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/logout/ HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:58:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:00] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:01] "GET /admin/login/?next=%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:02] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:04] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:04] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:06] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:12] "POST /admin/login/ HTTP/1.1" 302 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://04f22cb3.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F04f22cb3.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:15] "GET / HTTP/1.1" 302 -
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:15] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Роботу з ботом розпочато! Для більш детальної інформації про бота оберіть /about'} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:15] "GET /admin/ HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D1%83+%D0%B7+%D0%B1%D0%BE%D1%82%D0%BE%D0%BC+%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BE%21+%D0%94%D0%BB%D1%8F+%D0%B1%D1%96%D0%BB%D1%8C%D1%88+%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97+%D0%BF%D1%80%D0%BE+%D0%B1%D0%BE%D1%82%D0%B0+%D0%BE%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%2Fabout HTTP/1.1" 200 692
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":384,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995156,"text":"\\u0420\\u043e\\u0431\\u043e\\u0442\\u0443 \\u0437 \\u0431\\u043e\\u0442\\u043e\\u043c \\u0440\\u043e\\u0437\\u043f\\u043e\\u0447\\u0430\\u0442\\u043e! \\u0414\\u043b\\u044f \\u0431\\u0456\\u043b\\u044c\\u0448 \\u0434\\u0435\\u0442\\u0430\\u043b\\u044c\\u043d\\u043e\\u0457 \\u0456\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0456\\u0457 \\u043f\\u0440\\u043e \\u0431\\u043e\\u0442\\u0430 \\u043e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c /about","entities":[{"offset":74,"length":6,"type":"bot_command"}]}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть /verification для авторизації'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%2Fverification+%D0%B4%D0%BB%D1%8F+%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%97 HTTP/1.1" 200 444
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":385,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995156,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c /verification \\u0434\\u043b\\u044f \\u0430\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0430\\u0446\\u0456\\u0457","entities":[{"offset":8,"length":13,"type":"bot_command"}]}}''
+DEBUG:TeleBot:Task complete
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:16] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:17] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:17] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:17] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:18] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/login/?next=%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:47] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:52] "POST /admin/login/ HTTP/1.1" 302 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://04f22cb3.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F04f22cb3.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:53] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/bot_info/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 14:59:56] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 200 -
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:00:44] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Відправте номер телефону', 'reply_markup': '{"keyboard": [[{"text": "\\u0410\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0443\\u0432\\u0430\\u0442\\u0438\\u0441\\u044f", "request_contact": true}]], "one_time_keyboard": true, "resize_keyboard": true}'} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%92%D1%96%D0%B4%D0%BF%D1%80%D0%B0%D0%B2%D1%82%D0%B5+%D0%BD%D0%BE%D0%BC%D0%B5%D1%80+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83&reply_markup=%7B%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0410%5Cu0432%5Cu0442%5Cu043e%5Cu0440%5Cu0438%5Cu0437%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438%5Cu0441%5Cu044f%22%2C+%22request_contact%22%3A+true%7D%5D%5D%2C+%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 377
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":387,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995245,"text":"\\u0412\\u0456\\u0434\\u043f\\u0440\\u0430\\u0432\\u0442\\u0435 \\u043d\\u043e\\u043c\\u0435\\u0440 \\u0442\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\\u0443"}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:00:53] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+INFO:root:Someone try to authorize: {'content_type': 'contact', 'message_id': 388, 'from_user': {'id': 332291910, 'is_bot': False, 'first_name': '1', 'username': 'RazDua', 'last_name': '2', 'language_code': 'ru'}, 'date': 1559995253, 'chat': {'type': 'private', 'last_name': '2', 'first_name': '1', 'username': 'RazDua', 'id': 332291910, 'title': None, 'all_members_are_administrators': None, 'photo': None, 'description': None, 'invite_link': None, 'pinned_message': None, 'sticker_set_name': None, 'can_set_sticker_set': None}, 'forward_from_chat': None, 'forward_from': None, 'forward_date': None, 'reply_to_message': {'content_type': 'text', 'message_id': 387, 'from_user': <telebot.types.User object at 0x000002BCCCA8A470>, 'date': 1559995245, 'chat': <telebot.types.Chat object at 0x000002BCCCA8A390>, 'forward_from_chat': None, 'forward_from': None, 'forward_date': None, 'reply_to_message': None, 'edit_date': None, 'media_group_id': None, 'author_signature': None, 'text': 'Відправте номер телефону', 'entities': None, 'caption_entities': None, 'audio': None, 'document': None, 'photo': None, 'sticker': None, 'video': None, 'video_note': None, 'voice': None, 'caption': None, 'contact': None, 'location': None, 'venue': None, 'new_chat_member': None, 'new_chat_members': None, 'left_chat_member': None, 'new_chat_title': None, 'new_chat_photo': None, 'delete_chat_photo': None, 'group_chat_created': None, 'supergroup_chat_created': None, 'channel_chat_created': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'pinned_message': None, 'invoice': None, 'successful_payment': None, 'connected_website': None, 'json': {'message_id': 387, 'from': {'id': 479461558, 'is_bot': True, 'first_name': 'REPORT', 'username': 'RprtoBot'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1559995245, 'text': 'Відправте номер телефону'}}, 'edit_date': None, 'media_group_id': None, 'author_signature': None, 'text': None, 'entities': None, 'caption_entities': None, 'audio': None, 'document': None, 'photo': None, 'sticker': None, 'video': None, 'video_note': None, 'voice': None, 'caption': None, 'contact': {'phone_number': '+380930215368', 'first_name': '1', 'last_name': '2', 'user_id': 332291910}, 'location': None, 'venue': None, 'new_chat_member': None, 'new_chat_members': None, 'left_chat_member': None, 'new_chat_title': None, 'new_chat_photo': None, 'delete_chat_photo': None, 'group_chat_created': None, 'supergroup_chat_created': None, 'channel_chat_created': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'pinned_message': None, 'invoice': None, 'successful_payment': None, 'connected_website': None, 'json': {'message_id': 388, 'from': {'id': 332291910, 'is_bot': False, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'language_code': 'ru'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1559995253, 'reply_to_message': {'message_id': 387, 'from': {'id': 479461558, 'is_bot': True, 'first_name': 'REPORT', 'username': 'RprtoBot'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1559995245, 'text': 'Відправте номер телефону'}, 'contact': {'phone_number': '+380930215368', 'first_name': '1', 'last_name': '2', 'user_id': 332291910}}}
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Авторизацію пройдено \nЛаскаво просимо, Яковенко Дмитро Володимирович ', 'reply_markup': '{"remove_keyboard": true, "selective": true}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%8E+%D0%BF%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D0%BE+%0A%D0%9B%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE+%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%BE%2C+%D0%AF%D0%BA%D0%BE%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87+&reply_markup=%7B%22remove_keyboard%22%3A+true%2C+%22selective%22%3A+true%7D HTTP/1.1" 200 612
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":389,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995254,"text":"\\u0410\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0430\\u0446\\u0456\\u044e \\u043f\\u0440\\u043e\\u0439\\u0434\\u0435\\u043d\\u043e \\n\\u041b\\u0430\\u0441\\u043a\\u0430\\u0432\\u043e \\u043f\\u0440\\u043e\\u0441\\u0438\\u043c\\u043e, \\u042f\\u043a\\u043e\\u0432\\u0435\\u043d\\u043a\\u043e \\u0414\\u043c\\u0438\\u0442\\u0440\\u043e \\u0412\\u043e\\u043b\\u043e\\u0434\\u0438\\u043c\\u0438\\u0440\\u043e\\u0432\\u0438\\u0447"}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 658
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":390,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995254,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:01:36] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup params={'chat_id': 332291910, 'message_id': 390, 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "edit_report"}, {"text": "\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "report"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup?chat_id=332291910&message_id=390&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu0434%5Cu0430%5Cu0433%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22edit_report%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu043a%5Cu043b%5Cu0430%5Cu0441%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 677
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":390,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995254,"edit_date":1559995297,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"edit_report"},{"text":"\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"report"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:01:39] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage params={'chat_id': 332291910, 'message_id': 390} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage?chat_id=332291910&message_id=390 HTTP/1.1" 200 25
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Спочатку наберіть звіт за 03.06.2019:'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A1%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D1%83+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%B7%D0%B2%D1%96%D1%82+%D0%B7%D0%B0+03.06.2019%3A HTTP/1.1" 200 390
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":391,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995299,"text":"\\u0421\\u043f\\u043e\\u0447\\u0430\\u0442\\u043a\\u0443 \\u043d\\u0430\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u0437\\u0432\\u0456\\u0442 \\u0437\\u0430 03.06.2019:"}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:04:29] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "edit_report"}, {"text": "\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "report"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu0434%5Cu0430%5Cu0433%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22edit_report%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu043a%5Cu043b%5Cu0430%5Cu0441%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 654
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":393,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995469,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"edit_report"},{"text":"\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"report"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:00] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:07] "GET /admin/reports/details/?id=1&url=%2Fadmin%2Freports%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:07] "GET /admin/static/admin/js/details_filter.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:29] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:31] "GET /admin/reports/export/csv/ HTTP/1.1" 200 -
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:05:58] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup params={'chat_id': 332291910, 'message_id': 393, 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup?chat_id=332291910&message_id=393&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 681
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":393,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995469,"edit_date":1559995558,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:06:00] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage params={'chat_id': 332291910, 'message_id': 393} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage?chat_id=332291910&message_id=393 HTTP/1.1" 200 25
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Штраф: 24 балли - запізнення зі звітом за 03.06.2019\n'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A8%D1%82%D1%80%D0%B0%D1%84%3A+24+%D0%B1%D0%B0%D0%BB%D0%BB%D0%B8+-+%D0%B7%D0%B0%D0%BF%D1%96%D0%B7%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B7%D1%96+%D0%B7%D0%B2%D1%96%D1%82%D0%BE%D0%BC+%D0%B7%D0%B0+03.06.2019%0A HTTP/1.1" 200 445
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":394,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995561,"text":"\\u0428\\u0442\\u0440\\u0430\\u0444: 24 \\u0431\\u0430\\u043b\\u043b\\u0438 - \\u0437\\u0430\\u043f\\u0456\\u0437\\u043d\\u0435\\u043d\\u043d\\u044f \\u0437\\u0456 \\u0437\\u0432\\u0456\\u0442\\u043e\\u043c \\u0437\\u0430 03.06.2019"}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 658
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":395,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995561,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:06:56] "GET /admin/status/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:07:04] "GET /admin/static/vendor/x-editable/img/loading.gif HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:07:09] "GET /admin/status/edit/?id=1&url=%2Fadmin%2Fstatus%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:07:10] "GET /admin/static/vendor/select2/select2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:07:32] "GET /admin/faq/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:27] "GET /admin/faq/new/?url=%2Fadmin%2Ffaq%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:27] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1559995652178 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "POST /admin/faq/new/?url=%2Fadmin%2Ffaq%2F HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/faq/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:38] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:43] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup params={'chat_id': 332291910, 'message_id': 395, 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0412 \\u0447\\u043e\\u043c\\u0443 \\u0441\\u0435\\u043d\\u0441 \\u0436\\u0438\\u0442\\u0442\\u044f?", "callback_data": "\\u0412 \\u0447\\u043e\\u043c\\u0443 \\u0441\\u0435\\u043d\\u0441 \\u0436\\u0438\\u0442\\u0442\\u044f?"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup?chat_id=332291910&message_id=395&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0412+%5Cu0447%5Cu043e%5Cu043c%5Cu0443+%5Cu0441%5Cu0435%5Cu043d%5Cu0441+%5Cu0436%5Cu0438%5Cu0442%5Cu0442%5Cu044f%3F%22%2C+%22callback_data%22%3A+%22%5Cu0412+%5Cu0447%5Cu043e%5Cu043c%5Cu0443+%5Cu0441%5Cu0435%5Cu043d%5Cu0441+%5Cu0436%5Cu0438%5Cu0442%5Cu0442%5Cu044f%3F%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 653
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":395,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995561,"edit_date":1559995723,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0412 \\u0447\\u043e\\u043c\\u0443 \\u0441\\u0435\\u043d\\u0441 \\u0436\\u0438\\u0442\\u0442\\u044f?","callback_data":"\\u0412 \\u0447\\u043e\\u043c\\u0443 \\u0441\\u0435\\u043d\\u0441 \\u0436\\u0438\\u0442\\u0442\\u044f?"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:45] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': '42'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=42 HTTP/1.1" 200 245
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":396,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995726,"text":"42"}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 658
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":397,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995726,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:08:52] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage params={'chat_id': 332291910, 'message_id': 397} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage?chat_id=332291910&message_id=397 HTTP/1.1" 200 25
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Співробітник: Яковенко Дмитро Володимирович\nПосада: Адмін\nДата початку роботи: 03.06.2019\nПроробив в компанії: 5\nЗалишок відпустки: 0\nЗарплатня:19976'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A1%D0%BF%D1%96%D0%B2%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%B8%D0%BA%3A+%D0%AF%D0%BA%D0%BE%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87%0A%D0%9F%D0%BE%D1%81%D0%B0%D0%B4%D0%B0%3A+%D0%90%D0%B4%D0%BC%D1%96%D0%BD%0A%D0%94%D0%B0%D1%82%D0%B0+%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D1%83+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8%3A+03.06.2019%0A%D0%9F%D1%80%D0%BE%D1%80%D0%BE%D0%B1%D0%B8%D0%B2+%D0%B2+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D1%96%D1%97%3A+5%0A%D0%97%D0%B0%D0%BB%D0%B8%D1%88%D0%BE%D0%BA+%D0%B2%D1%96%D0%B4%D0%BF%D1%83%D1%81%D1%82%D0%BA%D0%B8%3A+0%0A%D0%97%D0%B0%D1%80%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8F%3A19976 HTTP/1.1" 200 942
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":398,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995733,"text":"\\u0421\\u043f\\u0456\\u0432\\u0440\\u043e\\u0431\\u0456\\u0442\\u043d\\u0438\\u043a: \\u042f\\u043a\\u043e\\u0432\\u0435\\u043d\\u043a\\u043e \\u0414\\u043c\\u0438\\u0442\\u0440\\u043e \\u0412\\u043e\\u043b\\u043e\\u0434\\u0438\\u043c\\u0438\\u0440\\u043e\\u0432\\u0438\\u0447\\n\\u041f\\u043e\\u0441\\u0430\\u0434\\u0430: \\u0410\\u0434\\u043c\\u0456\\u043d\\n\\u0414\\u0430\\u0442\\u0430 \\u043f\\u043e\\u0447\\u0430\\u0442\\u043a\\u0443 \\u0440\\u043e\\u0431\\u043e\\u0442\\u0438: 03.06.2019\\n\\u041f\\u0440\\u043e\\u0440\\u043e\\u0431\\u0438\\u0432 \\u0432 \\u043a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0456\\u0457: 5\\n\\u0417\\u0430\\u043b\\u0438\\u0448\\u043e\\u043a \\u0432\\u0456\\u0434\\u043f\\u0443\\u0441\\u0442\\u043a\\u0438: 0\\n\\u0417\\u0430\\u0440\\u043f\\u043b\\u0430\\u0442\\u043d\\u044f:19976"}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 658
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":399,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995733,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [08/Jun/2019 15:09:45] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup params={'chat_id': 332291910, 'message_id': 399, 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "edit_report"}, {"text": "\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "report"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup?chat_id=332291910&message_id=399&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu0434%5Cu0430%5Cu0433%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22edit_report%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu043a%5Cu043b%5Cu0430%5Cu0441%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 677
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":399,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1559995733,"edit_date":1559995786,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"edit_report"},{"text":"\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"report"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:09] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:10] "GET /admin/login/?next=%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:11] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:12] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:12] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:13] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:17] "POST /admin/login/ HTTP/1.1" 302 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://408b7544.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F408b7544.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:19] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:20] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:21] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:43:22] "GET /favicon.ico HTTP/1.1" 404 -
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:44:25] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Роботу з ботом розпочато! Для більш детальної інформації про бота оберіть /about'} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A0%D0%BE%D0%B1%D0%BE%D1%82%D1%83+%D0%B7+%D0%B1%D0%BE%D1%82%D0%BE%D0%BC+%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BE%21+%D0%94%D0%BB%D1%8F+%D0%B1%D1%96%D0%BB%D1%8C%D1%88+%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%97+%D0%BF%D1%80%D0%BE+%D0%B1%D0%BE%D1%82%D0%B0+%D0%BE%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%2Fabout HTTP/1.1" 200 692
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":401,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084266,"text":"\\u0420\\u043e\\u0431\\u043e\\u0442\\u0443 \\u0437 \\u0431\\u043e\\u0442\\u043e\\u043c \\u0440\\u043e\\u0437\\u043f\\u043e\\u0447\\u0430\\u0442\\u043e! \\u0414\\u043b\\u044f \\u0431\\u0456\\u043b\\u044c\\u0448 \\u0434\\u0435\\u0442\\u0430\\u043b\\u044c\\u043d\\u043e\\u0457 \\u0456\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0456\\u0457 \\u043f\\u0440\\u043e \\u0431\\u043e\\u0442\\u0430 \\u043e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c /about","entities":[{"offset":74,"length":6,"type":"bot_command"}]}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть /verification для авторизації'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%2Fverification+%D0%B4%D0%BB%D1%8F+%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%97 HTTP/1.1" 200 444
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":402,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084266,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c /verification \\u0434\\u043b\\u044f \\u0430\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0430\\u0446\\u0456\\u0457","entities":[{"offset":8,"length":13,"type":"bot_command"}]}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:44:30] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Відправте номер телефону', 'reply_markup': '{"keyboard": [[{"text": "\\u0410\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0443\\u0432\\u0430\\u0442\\u0438\\u0441\\u044f", "request_contact": true}]], "one_time_keyboard": true, "resize_keyboard": true}'} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%92%D1%96%D0%B4%D0%BF%D1%80%D0%B0%D0%B2%D1%82%D0%B5+%D0%BD%D0%BE%D0%BC%D0%B5%D1%80+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83&reply_markup=%7B%22keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0410%5Cu0432%5Cu0442%5Cu043e%5Cu0440%5Cu0438%5Cu0437%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438%5Cu0441%5Cu044f%22%2C+%22request_contact%22%3A+true%7D%5D%5D%2C+%22one_time_keyboard%22%3A+true%2C+%22resize_keyboard%22%3A+true%7D HTTP/1.1" 200 377
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":404,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084271,"text":"\\u0412\\u0456\\u0434\\u043f\\u0440\\u0430\\u0432\\u0442\\u0435 \\u043d\\u043e\\u043c\\u0435\\u0440 \\u0442\\u0435\\u043b\\u0435\\u0444\\u043e\\u043d\\u0443"}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:44:37] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+INFO:root:Someone try to authorize: {'content_type': 'contact', 'message_id': 405, 'from_user': {'id': 332291910, 'is_bot': False, 'first_name': '1', 'username': 'RazDua', 'last_name': '2', 'language_code': 'ru'}, 'date': 1560084277, 'chat': {'type': 'private', 'last_name': '2', 'first_name': '1', 'username': 'RazDua', 'id': 332291910, 'title': None, 'all_members_are_administrators': None, 'photo': None, 'description': None, 'invite_link': None, 'pinned_message': None, 'sticker_set_name': None, 'can_set_sticker_set': None}, 'forward_from_chat': None, 'forward_from': None, 'forward_date': None, 'reply_to_message': {'content_type': 'text', 'message_id': 404, 'from_user': <telebot.types.User object at 0x0000016BD6288DD8>, 'date': 1560084271, 'chat': <telebot.types.Chat object at 0x0000016BD6288B38>, 'forward_from_chat': None, 'forward_from': None, 'forward_date': None, 'reply_to_message': None, 'edit_date': None, 'media_group_id': None, 'author_signature': None, 'text': 'Відправте номер телефону', 'entities': None, 'caption_entities': None, 'audio': None, 'document': None, 'photo': None, 'sticker': None, 'video': None, 'video_note': None, 'voice': None, 'caption': None, 'contact': None, 'location': None, 'venue': None, 'new_chat_member': None, 'new_chat_members': None, 'left_chat_member': None, 'new_chat_title': None, 'new_chat_photo': None, 'delete_chat_photo': None, 'group_chat_created': None, 'supergroup_chat_created': None, 'channel_chat_created': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'pinned_message': None, 'invoice': None, 'successful_payment': None, 'connected_website': None, 'json': {'message_id': 404, 'from': {'id': 479461558, 'is_bot': True, 'first_name': 'REPORT', 'username': 'RprtoBot'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1560084271, 'text': 'Відправте номер телефону'}}, 'edit_date': None, 'media_group_id': None, 'author_signature': None, 'text': None, 'entities': None, 'caption_entities': None, 'audio': None, 'document': None, 'photo': None, 'sticker': None, 'video': None, 'video_note': None, 'voice': None, 'caption': None, 'contact': {'phone_number': '+380930215368', 'first_name': '1', 'last_name': '2', 'user_id': 332291910}, 'location': None, 'venue': None, 'new_chat_member': None, 'new_chat_members': None, 'left_chat_member': None, 'new_chat_title': None, 'new_chat_photo': None, 'delete_chat_photo': None, 'group_chat_created': None, 'supergroup_chat_created': None, 'channel_chat_created': None, 'migrate_to_chat_id': None, 'migrate_from_chat_id': None, 'pinned_message': None, 'invoice': None, 'successful_payment': None, 'connected_website': None, 'json': {'message_id': 405, 'from': {'id': 332291910, 'is_bot': False, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'language_code': 'ru'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1560084277, 'reply_to_message': {'message_id': 404, 'from': {'id': 479461558, 'is_bot': True, 'first_name': 'REPORT', 'username': 'RprtoBot'}, 'chat': {'id': 332291910, 'first_name': '1', 'last_name': '2', 'username': 'RazDua', 'type': 'private'}, 'date': 1560084271, 'text': 'Відправте номер телефону'}, 'contact': {'phone_number': '+380930215368', 'first_name': '1', 'last_name': '2', 'user_id': 332291910}}}
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Авторизацію пройдено \nЛаскаво просимо, Яковенко Дмитро Володимирович ', 'reply_markup': '{"remove_keyboard": true, "selective": true}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D1%96%D1%8E+%D0%BF%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D0%BD%D0%BE+%0A%D0%9B%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE+%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%BE%2C+%D0%AF%D0%BA%D0%BE%D0%B2%D0%B5%D0%BD%D0%BA%D0%BE+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87+&reply_markup=%7B%22remove_keyboard%22%3A+true%2C+%22selective%22%3A+true%7D HTTP/1.1" 200 612
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":406,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084278,"text":"\\u0410\\u0432\\u0442\\u043e\\u0440\\u0438\\u0437\\u0430\\u0446\\u0456\\u044e \\u043f\\u0440\\u043e\\u0439\\u0434\\u0435\\u043d\\u043e \\n\\u041b\\u0430\\u0441\\u043a\\u0430\\u0432\\u043e \\u043f\\u0440\\u043e\\u0441\\u0438\\u043c\\u043e, \\u042f\\u043a\\u043e\\u0432\\u0435\\u043d\\u043a\\u043e \\u0414\\u043c\\u0438\\u0442\\u0440\\u043e \\u0412\\u043e\\u043b\\u043e\\u0434\\u0438\\u043c\\u0438\\u0440\\u043e\\u0432\\u0438\\u0447"}}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0417\\u0432\\u0456\\u0442", "callback_data": "report_menu"}, {"text": "\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438", "callback_data": "fines"}], [{"text": "\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f", "callback_data": "questions"}, {"text": "\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c", "callback_data": "profile"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0417%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report_menu%22%7D%2C+%7B%22text%22%3A+%22%5Cu0428%5Cu0442%5Cu0440%5Cu0430%5Cu0444%5Cu0438%22%2C+%22callback_data%22%3A+%22fines%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041f%5Cu0438%5Cu0442%5Cu0430%5Cu043d%5Cu043d%5Cu044f%22%2C+%22callback_data%22%3A+%22questions%22%7D%2C+%7B%22text%22%3A+%22%5Cu041f%5Cu0440%5Cu043e%5Cu0444%5Cu0456%5Cu043b%5Cu044c%22%2C+%22callback_data%22%3A+%22profile%22%7D%5D%5D%7D HTTP/1.1" 200 658
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":407,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084278,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0417\\u0432\\u0456\\u0442","callback_data":"report_menu"},{"text":"\\u0428\\u0442\\u0440\\u0430\\u0444\\u0438","callback_data":"fines"}],[{"text":"\\u041f\\u0438\\u0442\\u0430\\u043d\\u043d\\u044f","callback_data":"questions"},{"text":"\\u041f\\u0440\\u043e\\u0444\\u0456\\u043b\\u044c","callback_data":"profile"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:44:42] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup params={'chat_id': 332291910, 'message_id': 407, 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "edit_report"}, {"text": "\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "report"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/editMessageReplyMarkup?chat_id=332291910&message_id=407&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu0434%5Cu0430%5Cu0433%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22edit_report%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu043a%5Cu043b%5Cu0430%5Cu0441%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 677
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":407,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084278,"edit_date":1560084283,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"edit_report"},{"text":"\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"report"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+DEBUG:TeleBot:Received task
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:44:45] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage params={'chat_id': 332291910, 'message_id': 407} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/deleteMessage?chat_id=332291910&message_id=407 HTTP/1.1" 200 25
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true}''
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Спочатку наберіть звіт за 04.06.2019:'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%A1%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D1%83+%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%B7%D0%B2%D1%96%D1%82+%D0%B7%D0%B0+04.06.2019%3A HTTP/1.1" 200 390
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":408,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084286,"text":"\\u0421\\u043f\\u043e\\u0447\\u0430\\u0442\\u043a\\u0443 \\u043d\\u0430\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u0437\\u0432\\u0456\\u0442 \\u0437\\u0430 04.06.2019:"}}''
+DEBUG:TeleBot:Task complete
+DEBUG:TeleBot:Received 1 new updates
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:45:14] "POST /479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 -
+DEBUG:TeleBot:Received task
+DEBUG:TeleBot:Request: method=post url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage params={'chat_id': '332291910', 'text': 'Оберіть пункт:', 'reply_markup': '{"inline_keyboard": [[{"text": "\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "edit_report"}, {"text": "\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442", "callback_data": "report"}], [{"text": "\\u041d\\u0430\\u0437\\u0430\\u0434", "callback_data": "menu"}]]}'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "POST /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/sendMessage?chat_id=332291910&text=%D0%9E%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C+%D0%BF%D1%83%D0%BD%D0%BA%D1%82%3A&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0435%5Cu0434%5Cu0430%5Cu0433%5Cu0443%5Cu0432%5Cu0430%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22edit_report%22%7D%2C+%7B%22text%22%3A+%22%5Cu0421%5Cu043a%5Cu043b%5Cu0430%5Cu0441%5Cu0442%5Cu0438+%5Cu0437%5Cu0432%5Cu0456%5Cu0442%22%2C+%22callback_data%22%3A+%22report%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu041d%5Cu0430%5Cu0437%5Cu0430%5Cu0434%22%2C+%22callback_data%22%3A+%22menu%22%7D%5D%5D%7D HTTP/1.1" 200 654
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":{"message_id":410,"from":{"id":479461558,"is_bot":true,"first_name":"REPORT","username":"RprtoBot"},"chat":{"id":332291910,"first_name":"1","last_name":"2","username":"RazDua","type":"private"},"date":1560084314,"text":"\\u041e\\u0431\\u0435\\u0440\\u0456\\u0442\\u044c \\u043f\\u0443\\u043d\\u043a\\u0442:","reply_markup":{"inline_keyboard":[[{"text":"\\u0420\\u0435\\u0434\\u0430\\u0433\\u0443\\u0432\\u0430\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"edit_report"},{"text":"\\u0421\\u043a\\u043b\\u0430\\u0441\\u0442\\u0438 \\u0437\\u0432\\u0456\\u0442","callback_data":"report"}],[{"text":"\\u041d\\u0430\\u0437\\u0430\\u0434","callback_data":"menu"}]]}}}''
+DEBUG:TeleBot:Task complete
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://408b7544.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F408b7544.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:50:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/workers/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:02] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:04] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:07] "GET /admin/reports/new/?url=%2Fadmin%2Freports%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:07] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1560084664731 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:07] "GET /admin/static/vendor/select2/select2.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "POST /admin/reports/new/?url=%2Fadmin%2Freports%2F HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:26] "GET /admin/reports/details/?id=1&url=%2Fadmin%2Freports%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:26] "GET /admin/static/admin/js/details_filter.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:44] "GET /admin/reports/new/?url=%2Fadmin%2Freports%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:44] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1560084682522 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:50] "GET /admin/reports/new/?url=%2Fadmin%2Freports%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:51:50] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1560084682523 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "POST /admin/reports/new/?url=%2Fadmin%2Freports%2F HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 15:52:05] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://408b7544.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F408b7544.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:36] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:37] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:37] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:41] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:43] "GET /admin/reports/new/?url=%2Fadmin%2Freports%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:43] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1560086261640 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:17:43] "GET /admin/static/vendor/select2/select2.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "POST /admin/reports/new/?url=%2Fadmin%2Freports%2F HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:41] "GET /admin/reports/new/?url=%2Fadmin%2Freports%2F&modal=True HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:41] "GET /admin/static/admin/js/bs3_modal.js?v=1.0.0&_=1560086319638 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "POST /admin/reports/new/?url=%2Fadmin%2Freports%2F HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jun/2019 16:18:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/login/?next=%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:10:55] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "POST /admin/login/ HTTP/1.1" 302 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://408b7544.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F408b7544.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:01] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:02] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:02] "GET /favicon.ico HTTP/1.1" 404 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:04] "GET /admin/faq/ HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:18] "GET /admin/faq/ HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:19] "GET /admin/faq/ HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:19] "GET /admin/faq/ HTTP/1.1" 500 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:19] "GET /admin/faq/ HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/role/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:24] "GET /admin/user/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:24] "GET /admin/static/vendor/x-editable/css/bootstrap3-editable.css?v=1.5.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:24] "GET /admin/static/vendor/x-editable/js/bootstrap3-editable.min.js?v=1.5.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:25] "GET /admin/bot_info/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:26] "GET /admin/workers/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:27] "GET /admin/reports/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:28] "GET /admin/fines/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:29] "GET /admin/status/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:30] "GET /admin/departments/ HTTP/1.1" 200 -
+ERROR:flask.app:Exception on /admin/faq/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 69, in inner
+    return self._run_view(f, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\base.py", line 368, in _run_view
+    return fn(self, *args, **kwargs)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\model\base.py", line 1960, in index_view
+    view_args.search, view_args.filters, page_size=page_size)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 1063, in get_list
+    query, joins = self._apply_sorting(query, joins, sort_column, sort_desc)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 899, in _apply_sorting
+    for sort_field, sort_joins, sort_desc in order:
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\view.py", line 883, in _get_default_order
+    attr, joins = tools.get_field_with_path(self.model, field)
+  File "C:\Users\W\Desktop\bot\Venv\lib\site-packages\flask_admin\contrib\sqla\tools.py", line 150, in get_field_with_path
+    value = getattr(current_model, attribute)
+AttributeError: type object 'FAQ' has no attribute 'created'
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:11:31] "GET /admin/faq/ HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/faq/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/select2/select2-bootstrap3.css?v=1.4.6 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js?v=1.3.22 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/vendor/select2/select2.css?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/admin/js/form.js?v=1.0.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2019 00:12:40] "GET /admin/static/admin/js/filters.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:10] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/login/?next=%2F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/bootstrap/bootstrap3/swatch/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:16] "POST /admin/login/ HTTP/1.1" 302 -
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': ''} files=None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org:443
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url= HTTP/1.1" 200 61
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+DEBUG:TeleBot:Request: method=get url=https://api.telegram.org/bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook params={'url': 'https://408b7544.ngrok.io/479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I'} files=None
+DEBUG:urllib3.connectionpool:https://api.telegram.org:443 "GET /bot479461558:AAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I/setWebhook?url=https%3A%2F%2F408b7544.ngrok.io%2F479461558%3AAAE-W_lYVMyzV1mH9lD08SlsiG6qJq-450I HTTP/1.1" 200 57
+DEBUG:TeleBot:The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:17] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:20] "GET /admin/fileadmin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:20] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:22] "GET /admin/fileadmin/download/Example.xlsx HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:22] "GET /Reports/Example.xlsx HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:39] "GET /admin/fileadmin/upload/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "POST /admin/fileadmin/upload/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:21:58] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:03] "GET /admin/fileadmin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:03] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:09] "GET /admin/fileadmin/download/Example.xlsx HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:09] "GET /Reports/Example.xlsx HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:14] "GET /admin/fileadmin/download/Example.xlsx HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:14] "GET /Reports/Example.xlsx HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:26] "GET /admin/fileadmin/download/Заметки.txt HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:22:26] "GET /Reports/Заметки.txt HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "POST /admin/fileadmin/upload/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/bootstrap/bootstrap3/swatch/default/bootstrap.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/vendor/jquery.min.js?v=2.1.4 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/bootstrap/bootstrap3/js/bootstrap.min.js?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/vendor/moment.min.js?v=2.9.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/vendor/select2/select2.min.js?v=3.5.2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/admin/css/bootstrap3/submenu.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css?v=3.3.5 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /admin/static/admin/css/bootstrap3/admin.css?v=1.1.1 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:19] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:20] "GET /admin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:21] "GET /admin/fileadmin/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:21] "GET /admin/static/admin/js/actions.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2019 14:25:24] "GET /admin/fileadmin/b/Departments HTTP/1.1" 200 -
